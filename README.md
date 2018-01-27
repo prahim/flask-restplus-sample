@@ -10,7 +10,6 @@ Pre-Requisites:
 To Run:
 ```
 >> cd src
-
 >> python3 server/application.py
 ```
 
