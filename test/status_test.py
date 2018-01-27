@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 from src.server.application import create_app
 from src.routes.status import get_ip
 import unittest
