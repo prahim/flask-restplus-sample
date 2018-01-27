@@ -1,7 +1,9 @@
+import sys
+sys.path.append("..")
+
 from flask import Flask
 from flask_restplus import Api
 from src.routes.status import api as status_api
-
 
 def create_app(config=None):
     app = Flask(__name__)
